@@ -1,0 +1,25 @@
+#body-color{
+    background-color: #d3ffe6;
+}
+
+#header{
+    padding: 0;
+}
+
+#logo-header{
+    width: 50%;
+    height: 50%;
+}
+
+#header-img{
+    margin-left: 25%;
+    padding: 0;
+}
+
+.img-k{
+    width: 70%;
+    height: 70%;
+}
+.img-colab{
+    margin-bottom: 1%;
+}
