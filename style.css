@@ -5,35 +5,37 @@
     font-family: 'Reem Kufi Fun', sans-serif;
 }
 
-body{
-    max-width: 100%;
-    overflow-x: hidden;
-}
-
 @media only screen and (max-width: 320px) {
-    body {
-      width: 320px;
+    html, body {
       overflow-x: hidden;
     }
   }
 
   @media only screen and (max-width: 375px) {
-    body {
-      width: 375px;
+    html, body {
+      max-width: 375px;
+      overflow-x: hidden;
     }
   }
 
   @media only screen and (max-width: 425px) {
-    body {
-      width: 425px;
+    html, body {
+      max-width: 425px;
+      overflow-x: hidden;
     }
   }
 
   @media only screen and (max-width: 768px) {
-    body {
-      width: 768px;
+    html, body {
+      max-width: 768px;
+      overflow-x: hidden;
     }
   }
+
+  html, body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
   
 #body-color{
     background-color: #d3ffe6;
@@ -160,13 +162,28 @@ padding-bottom: 0%;
 margin-bottom: 0%
 }
  .bi{
-    font-size: 500%;
-    margin-left: 15%;
+    font-size: xx-large;
+    margin-left: 47%;
+    text-align: center;
  }
  .social-media-font
  {
     text-align: center;
+    font-size: xx-large;
  }
+
+#footer
+{
+  max-width: 100%;
+}
+
+#img-footer{
+  max-width: 100%;
+}
+
+#header-footer{
+  text-align: center;
+}
 
  #footer-station
  {
@@ -178,26 +195,36 @@ margin-bottom: 0%
  }
 
  #footer-station :hover{
-    width: fit-content;
-    color: white;
-    background-color: green;
- }
+  width: fit-content;
+  color: white;
+  background-color: green;
+}
+
+#link-footer{
+    text-decoration: none;
+    color: green;
+}
 
  #footer-col-1
  {
     text-align: center;
+    max-width: 100%;
  }
  #footer-col-2
  {
     text-align: left;
-    font-size: x-large;
+    font-size: 18px;
     padding-top: 1%;
     padding-bottom: 1%;
+    max-width: 100%;
+    word-wrap: break-word;
  }
  #footer-col-3
  {
     text-align: left;
-    font-size: x-large;
+    word-wrap: break-word;
+    font-size: 18px;
     padding-top: 1%;
     padding-bottom: 1%;
+    max-width: 100%;
  }

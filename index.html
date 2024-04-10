@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="icon" type="image/x-icon" href="favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi+Fun:wght@400..700&display=swap" rel="stylesheet">
@@ -28,6 +29,12 @@
     border: 2px solid green;
      border-radius: 5px;
 }
+
+@media only screen and (max-width: 320px) {
+    body {
+      overflow-x: hidden;
+    }
+  }
     </style>
 </head>
 <body id="body-color">
@@ -179,40 +186,42 @@
     <div id="footer" class="container">
       <div class="container-fluid" id="footer-text">
         <div class="row">
-            <div class="col-5"></div>
-            <div class="col-2">
-              <h4>Visit our social media!</h4>
+            <div class="col-4"></div>
+            <div class="col-4">
+              <h4 id="header-footer">Visit our social media!</h4>
             </div>
-            <div class="col-5"></div>
+            <div class="col-4"></div>
         </div>
         <br>
         <br>
         <div class="row">
           <div class="col-4"></div>
-          <div class="col-1"><i class="bi bi-facebook"></i>
-          <br><span class="social-media-font"><h4>Facebook</h4></span></div>
-          <div class="col-1"><i class="bi bi-instagram"></i>
-            <br><span class="social-media-font"><h4>Instagram</h4></span></div>
-          <div class="col-1"><i class="bi bi-youtube"></i>
-            <br><span class="social-media-font"><h4>Youtube</h4></span></div>
-          <div class="col-1"><i class="bi bi-camera-reels"></i>
-            <br><span class="social-media-font"><h4>Tik Tok</h4></span></div>
+          <div class="col-4">
+          <i class="bi bi-facebook"></i>
+          <br><span class="social-media-font"><h4>Facebook</h4></span>
+          <i class="bi bi-instagram"></i>
+            <br><span class="social-media-font"><h4>Instagram</h4></span>
+          <i class="bi bi-youtube"></i>
+            <br><span class="social-media-font"><h4>Youtube</h4></span>
+          <i class="bi bi-camera-reels"></i>
+            <br><span class="social-media-font"><h4>Tik Tok</h4></span>
+          </div>
         </div>
       </div>
       <br>
       <br>
       <br>
       <br>
-      <div class="container">
+      <div class="container" id="footer">
         <div class="row">
           <div class="col-4" id="footer-col-1">
-            <img src="1.1.png" alt="logo" width="130px" height="130px">
+            <img src="1.1.png" alt="logo" id="img-footer" width="130px" height="130px">
           </div>
           <div class="col-4" id="footer-col-2">
         <span>Makedonska Falanga 9</span><br>
         <span>Bitola 7000</span><br>
         <span>Macedonia</span><br>
-       <span><a href="index.html" id="footer-station">Station44 Apartmets &copy;</a></span>
+       <span id="footer-station"><a href="index.html" id="link-footer">Station44 Apartmets &copy;</a></span>
       </div>
       <div class="col-4" id="footer-col-3">
         <span>+389 78 222 222</span><br>
