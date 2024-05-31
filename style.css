@@ -50,6 +50,10 @@
     height: 50%;
 }
 
+#header :hover{
+  opacity: 0.7;
+}
+
 #header-img{
     margin-left: 25%;
     padding: 0;
@@ -66,8 +70,400 @@
 #google-form{
     overflow-y: hidden;
 }
+/*POP-UP IMAGE 1*/
 
-/*POP-UP IMAGE*/
+#img1 {
+  border-radius: 0px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#img1:hover {opacity: 0.7;}
+
+/* Caption of Modal Image */
+#caption1 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+#caption1 {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 50%;
+  }
+}
+/*END 1*/
+
+/*POP-UP IMAGE 2*/
+
+#img2 {
+  border-radius: 0px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#img2:hover {opacity: 0.7;}
+
+/* Caption of Modal Image */
+#caption2 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+#caption2 {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 50%;
+  }
+}
+/*END 2*/
+
+/*POP-UP IMAGE 3*/
+
+#img3 {
+  border-radius: 0px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#img3:hover {opacity: 0.7;}
+
+/* Caption of Modal Image */
+#caption3 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+#caption3 {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 50%;
+  }
+}
+/*END 3*/
+
+/*POP-UP IMAGE 4*/
+
+#img4 {
+  border-radius: 0px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#img4:hover {opacity: 0.7;}
+
+/* Caption of Modal Image */
+#caption4 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+#caption4 {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 50%;
+  }
+}
+/*END 4*/
+
+
+/*POP-UP IMAGE 5*/
+
+#img5 {
+  border-radius: 0px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#img5:hover {opacity: 0.7;}
+
+/* Caption of Modal Image */
+#caption5 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+#caption5 {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 50%;
+  }
+}
+/*END 5*/
+
+/*POP-UP IMAGE 6*/
+
+#img6 {
+  border-radius: 0px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#img6:hover {opacity: 0.7;}
+
+/* Caption of Modal Image */
+#caption6 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+#caption6 {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 50%;
+  }
+}
+/*END 6*/
+
+/*POP-UP IMAGE 7*/
+
+#img7 {
+  border-radius: 0px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#img7:hover {opacity: 0.7;}
+
+/* Caption of Modal Image */
+#caption7 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+#caption7 {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 50%;
+  }
+}
+/*END 7*/
+
+/*POP-UP IMAGE 8*/
+
+#img8 {
+  border-radius: 0px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#img8:hover {opacity: 0.7;}
+
+/* Caption of Modal Image */
+#caption8 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+#caption8 {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 50%;
+  }
+}
+/*END 8*/
+
+/*POP-UP IMAGE 13*/
 
 #img13 {
   border-radius: 0px;
@@ -101,7 +497,7 @@
 }
 
 /* Caption of Modal Image */
-#caption {
+#caption13 {
   margin: auto;
   display: block;
   width: 80%;
@@ -113,7 +509,7 @@
 }
 
 /* Add Animation */
-.modal-content, #caption {  
+.modal-content, #caption13 {  
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
@@ -154,6 +550,194 @@
     width: 50%;
   }
 }
+/*END 13*/
+
+/*POP-UP IMAGE 14*/
+
+#img14 {
+  border-radius: 0px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#img14:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption14 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption14 {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 50%;
+  }
+}
+/*END 14*/
+
+/*POP-UP IMAGE 15*/
+
+#img15 {
+  border-radius: 0px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#img15:hover {opacity: 0.7;}
+
+/* Caption of Modal Image */
+#caption15 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+#caption15 {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 50%;
+  }
+}
+/*END 15*/
+
+/*POP-UP IMAGE 16*/
+
+#img16 {
+  border-radius: 0px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#img16:hover {opacity: 0.7;}
+
+/* Caption of Modal Image */
+#caption16 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+#caption16 {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 50%;
+  }
+}
+/*END 16*/
 
 
 #maps{
@@ -227,4 +811,27 @@ margin-bottom: 0%
     padding-top: 1%;
     padding-bottom: 1%;
     max-width: 100%;
+ }
+
+#sm{
+ margin-left: 35%;
+}
+
+ .sm-logo
+ {
+  padding: 20px;
+ }
+
+ #fb-logo:hover{
+  content: url(facebook_logo.png);
+ }
+ #insta-logo:hover
+ {
+  content: url(instagram_logo.png);
+ }
+ #yt-logo:hover{
+  content: url(Youtube_logo.png);
+ }
+ #tt-logo:hover{
+  content: url(tiktok_logo.png);
  }
